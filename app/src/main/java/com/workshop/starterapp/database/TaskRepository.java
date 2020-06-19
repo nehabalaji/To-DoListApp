@@ -8,7 +8,6 @@ import androidx.paging.PagedList;
 import com.workshop.starterapp.data.Task;
 
 public class TaskRepository {
-
     private TaskDao taskDao;
     private int pageSize = 15;
     private TaskRepository INSTANCE = null;
@@ -27,7 +26,7 @@ public class TaskRepository {
             }
         }
         return INSTANCE;
-        
+
     }
 
 }
